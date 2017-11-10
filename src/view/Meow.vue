@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <input type="text" v-model="normal" :value="normal">
-    <input type="text" v-model="meow" :value="meow">
+  <div class="container">
+    <div><p>人類語言：</p><input type="text" v-model="normal" :value="normal"></div>
+    <div><p>喵嗚語：</p><input type="text" v-model="meow" :value="meow"></div>
   </div>
 </template>
 
